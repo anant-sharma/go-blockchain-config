@@ -1,0 +1,15 @@
+{
+	"DBConnectionString": "string",
+	"jwt": {
+		"secret": "appsecret",
+		"algorithm": "HS256",
+		"expiresIn": 3600,
+		"issuer": "Chipserver"
+	},
+	"PORT": 8080,
+	"MQConnectionString": "amqp://35.202.46.144:5672",
+	"mongo": {
+		"connectionstring": "mongodb://35.202.46.144:32769/blockchain",
+		"database": "blockchain"
+	}
+}
